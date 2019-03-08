@@ -144,7 +144,7 @@
         drawNextFrame(); // (but should we?)
         //XXX: Send a XHTML Request that updates the entity you just  modified!
 
-        let entityURL = `/entity/${entity}`;
+        let entityURL = '/entity/' + entity;
         postJSONHTTPRequest(entityURL, data);
 
     }
